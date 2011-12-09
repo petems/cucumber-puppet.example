@@ -1,0 +1,2 @@
+class dhcp::server {
+}
