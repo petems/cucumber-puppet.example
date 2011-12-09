@@ -5,3 +5,4 @@ require 'cucumber-puppet/steps'
 World do
   CucumberPuppet.new
 end
+World(CucumberPuppet::Helpers)
