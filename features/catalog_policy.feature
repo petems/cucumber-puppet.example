@@ -6,6 +6,7 @@ Feature: Catalog policy
     Given a node with role "<server_role>"
     When I compile its catalog
     Then compilation should succeed
+    And puppet should ensure all packages are up-to-date
 
     Examples:
       | server_role |
