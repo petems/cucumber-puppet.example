@@ -1,5 +1,7 @@
 import 'templates'
 
-node 'default' {
+node 'testnode' {
   include dhcp_server
 }
+
+node default {}
