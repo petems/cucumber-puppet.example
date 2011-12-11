@@ -1,4 +1,4 @@
-class dhcp::server {
+class dhcp::server($host_list = "data/hosts") {
   package { 'isc-dhcp-server':
     ensure => latest
   }
