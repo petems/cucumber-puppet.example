@@ -1,4 +1,11 @@
 module CucumberPuppet::Helpers
+  def call_function(name, arg)
+    Puppet[:modulepath] = 'modules'
+    Puppet::Parser::Functions.autoloader.loadall
+    scope = Puppet::Parser::Scope.new
+    scope.send("function_#{name}", arg)
+  end
+
   def file(name)
     catalog_resources.each do |resource|
       return resource if resource.type == 'File' and resource.title == name
