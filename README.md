@@ -13,3 +13,6 @@ There are several points to take away:
     specific situation
 * keep your step implementations short, just write the code you wish you had
 * the bulk of the work should be done by custom helper methods
+
+Are you wondering how to accomplish some task with cucumber-puppet? Do you have
+any feedback on the work presented here? Just open an issue and let me know!
