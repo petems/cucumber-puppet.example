@@ -1,5 +1,7 @@
 # Cucumber-Puppet Example
 
+[![Build Status](https://travis-ci.org/petems/cucumber-puppet.example.png?branch=master)](https://travis-ci.org/petems/cucumber-puppet.example)
+
 An example puppet project, using cucumber-puppet.
 
 Have a look at the commit log to see how the project evolves.
