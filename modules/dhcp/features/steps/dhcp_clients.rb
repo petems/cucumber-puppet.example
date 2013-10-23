@@ -5,6 +5,7 @@ Given /^a file containing DHCP clients$/ do |file_content|
 end
 
 When /^I call dhcp_clients with this file$/ do
+  # pending('Issues with loading parser right now...')
   @result = call_function('dhcp_clients', ['/tmp/dhcp.clients'])
 end
 

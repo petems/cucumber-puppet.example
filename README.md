@@ -1,3 +1,5 @@
+# Cucumber-Puppet Example
+
 An example puppet project, using cucumber-puppet.
 
 Have a look at the commit log to see how the project evolves.
